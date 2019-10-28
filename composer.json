@@ -10,9 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "naotech/contact" : "1.0.*@dev"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Naotech\\Contact\\": "src/"
