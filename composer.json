@@ -10,7 +10,18 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "repositories": [
+        {
+            "type": "path",
+            "url": "package/contact",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "naotech/contact": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Naotech\\Contact\\": "src/"
