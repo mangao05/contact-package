@@ -1,4 +1,29 @@
-# Contact Us Form Package
+#Contact Form
 
+This contact form is created in laravel. Used to send an email and save it to database.
 
-## This will send email.
+##Installations
+```bash
+
+composer require naotech/contact
+
+```
+##Usage/Instructions
+Go to config/app.php and add this to providers
+```php
+    Naotech\Contact\ContactServiceProvider::class,
+```
+
+Publish the vendor using command:
+```bash
+    php artisan vendor:publish
+```
+
+and choose the added provider.
+
+Migrate the database:
+
+```bash
+    php artisan migrate
+```
+
