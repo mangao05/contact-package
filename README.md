@@ -1,22 +1,22 @@
-#Contact Form
+# Contact Form
 
 This contact form is created in laravel. Used to send an email and save it to database.
 
-##Installations
+## Installations
 ```bash
 
 composer require naotech/contact
 
 ```
-##Usage/Instructions
+## Usage/Instructions
 Go to config/app.php and add this to providers
 ```php
-    Naotech\Contact\ContactServiceProvider::class,
+Naotech\Contact\ContactServiceProvider::class,
 ```
 
 Publish the vendor using command:
 ```bash
-    php artisan vendor:publish
+php artisan vendor:publish
 ```
 
 and choose the added provider.
@@ -24,6 +24,6 @@ and choose the added provider.
 Migrate the database:
 
 ```bash
-    php artisan migrate
+php artisan migrate
 ```
 
