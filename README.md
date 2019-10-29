@@ -12,7 +12,7 @@ This contact form is created in laravel. Used to send an email and save it to da
 composer require naotech/contact
 
 ```
-## Usage/Instructions
+## Instructions
 Go to config/app.php and add this to providers
 ```php
 Naotech\Contact\ContactServiceProvider::class,
@@ -31,3 +31,6 @@ Migrate the database:
 php artisan migrate
 ```
 
+
+## Usage
+Field names : ``` name, email, message```
