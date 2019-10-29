@@ -16,5 +16,12 @@
         "psr-4": {
             "Naotech\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Naotech\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
