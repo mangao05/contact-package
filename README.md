@@ -1,6 +1,6 @@
 # Contact Form
 
-[![Issues](https://img.shields.io/github/issues/mangao05/contact-package?style=flat-square)]
+![Issues](https://img.shields.io/github/issues/mangao05/contact-package?style=flat-square)
 
 
 
